@@ -1,0 +1,11 @@
+.Phonetic .icon {
+  color: #9e6b1a;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.Phonetic .text {
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 26px;
+}
