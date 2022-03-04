@@ -10,16 +10,12 @@ export default function Photos(props) {
           {props.photos.map(function (photo, index) {
             return (
               <div className="col-4">
-                <a
-                  href={photo.src.original}
-                  target="_blank"
-                  rel="noreferrer"
-                  alt="ilustrative image of the word you searched"
-                >
+                <a href={photo.src.original} target="_blank" rel="noreferrer">
                   <img
                     src={photo.src.landscape}
                     key={index}
                     className="img-fluid"
+                    alt="ilustrative image of the word you searched"
                   />
                 </a>
               </div>
