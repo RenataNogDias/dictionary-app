@@ -6,3 +6,9 @@
   font-size: 36px;
   font-weight: bold;
 }
+
+@media (max-width: 486px) {
+  .Results h2 {
+    font-size: 28px;
+  }
+}
